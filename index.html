@@ -4,11 +4,10 @@ layout: page
 
 {% for post in site.posts %}
 <div>
-{{ post.title }}
+		{{ post.title }}
 		<p> {{post.excerpt}} </p>
 		<a href="{{ post.url | prepend: site.baseurl }}"> 
 		leer mas
-	</a>
-		
+	    </a>
 </div>
 {% endfor %}
