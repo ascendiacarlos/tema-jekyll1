@@ -3,12 +3,13 @@
 
 body{
 	font-family: courier, arial;
+	color: purple;
 
 }
 .cabecera{
 	height: 300px;
 	font-size: 24px;
-	background-color: tomato;
+	background-color: green;
 	color: white;
 
 }
