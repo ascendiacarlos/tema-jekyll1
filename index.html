@@ -3,7 +3,7 @@ layout: page
 ---
 
 {% for post in site.posts %}
-<div>
+<div class="container">
 		{{ post.title }}
 		<p> {{post.excerpt}} </p>
 		<a href="{{ post.url | prepend: site.baseurl }}"> 
